@@ -15,7 +15,7 @@ Grunt is then watching for changes.
 
 **Edit the scss files not the css.**
 
-# To deploy
+# To deploy well
 
 Requires s3cmd (http://s3tools.org/s3cmd-howto) to be installed and in a conda-env called s3cmd.
 
