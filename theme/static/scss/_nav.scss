@@ -5,6 +5,12 @@
   width: 100%;
   z-index: 999;
   font-family: $source-sans-font-family;
+  
+  ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
   .logo {
     float: left;
@@ -137,6 +143,13 @@
   min-height: 1.2em;
   padding: 0.5em 2em;
   text-transform: uppercase;
+
+  ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
   ul li.nav-link {
     background: inherit;
     display: inline;
