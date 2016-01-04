@@ -52,3 +52,16 @@ then you will see something like:
 Enable touch events Mac, Windows, Linux, Chrome OS Force touchscreen support to always be enabled or disabled,or to be enabled when a touchscreen is detected on startup (Automatic, the default). #touch-events
 ```
 and a drop-down button that you have to set to ``Disabled``.
+
+#### My plot won't pan, or my plot used to pan and isn't any more?
+Try zooming in first and then panning. If this works, then the explanation is below. If not, then you
+may have a different issue.
+
+Explanation: In v0.11 the ability to add bounds to plots was introduced. Now, by default, 
+all plots are bounded to the plots ranges. This means you can zoom in and pan around, but you won't be 
+able to pan or zoom far away from your data. If you don't want your plot to be bounded, you can set
+`bounds=None`. For more instructions, see the docs: 
+
+* [DataRange1d (the default when using figure)](http://bokeh.pydata.org/en/dev/docs/reference/models/ranges.html#bokeh.models.ranges.DataRange1d.bounds)
+* [Range1d (if you have specified a range manually and on some charts)](http://bokeh.pydata.org/en/dev/docs/reference/models/ranges.html#bokeh.models.ranges.Range1d.bounds)
+* [FactorRange (if you have categorical data)](http://bokeh.pydata.org/en/dev/docs/reference/models/ranges.html#bokeh.models.ranges.FactorRange.bounds)
