@@ -143,8 +143,12 @@
   @include clearfix;
   background-color: $secondary-nav-background-color;
   min-height: 1.2em;
-  padding: 0.5em $left-align;
   text-transform: uppercase;
+
+  @include media ($large-screen) {
+    padding: 0.5em $left-align;
+  }
+  padding: 0.5em $left-align-narrow;
 
   ul, ol {
     list-style-type: none;

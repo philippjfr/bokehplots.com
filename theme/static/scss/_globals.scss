@@ -5,7 +5,10 @@ body {
   padding: 0em;
   color: $charcoal;
   font-family: $noto-sans-font-family;
-  font-size: $base-font-size;
+  @include media ($large-screen) {
+    font-size: $base-font-size;
+  }
+  font-size: $base-font-size-small;
 }
 
 .wrapper {
@@ -44,3 +47,4 @@ $menu-link-base-color: $charcoal;
 
 // Left margin
 $left-align: 60px;
+$left-align-narrow: 24px;

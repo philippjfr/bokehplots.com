@@ -2,7 +2,10 @@
 
   background: $light-charcoal;
   font-family: $source-sans-font-family;
-  padding: 2em $left-align;
+  @include media ($large-screen) {
+    padding: 2em $left-align;
+  }
+  padding: 2em $left-align-narrow;
 
   .footer-links {
     @include outer-container;
@@ -11,7 +14,7 @@
   }
 
   ul {
-    @include span-columns(12);
+    @include span-columns(4);
     padding: 0;
     @include media ($large-screen) {
       @include span-columns(2);
