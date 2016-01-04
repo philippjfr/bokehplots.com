@@ -19,21 +19,3 @@
 @import "docs/gallery";
 @import "docs/nav";
 @import "docs/expander";
-
-body {
-  margin: 0em;
-  padding: 0em;
-  color: $charcoal;
-  font-family: $noto-sans-font-family;
-  font-size: $base-font-size;
-}
-
-.wrapper {
-  @include clearfix;
-  @include outer-container;
-  max-width: none;
-  position: relative;
-  z-index: 9999;
-  padding-left: 2em;
-  padding-right: 2em;
-}

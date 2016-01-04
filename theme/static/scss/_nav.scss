@@ -29,8 +29,10 @@
     color: $grey;
     display: inline-block;
     text-decoration: none;
-    margin: 0 0 0 $base-spacing * -1;
-    padding-top: 0.5em;
+    font-size: 1em * (16/14);
+    position: absolute;
+    left: $left-align;
+    top: 8px;
   }
   // Mobile view
 
@@ -42,7 +44,7 @@
     margin: 0;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.85em;
+    font-size: 1em * (12/14);
 
     @include media ($large-screen) {
       display: none;
@@ -88,7 +90,7 @@
   // The nav items
 
   ul li.nav-link {
-    font-size: 0.85em;
+    font-size: 1em * (12/14);
     background: $navigation-background-color;
     display: block;
     line-height: $base-line-height;
@@ -157,7 +159,7 @@
     padding-right: 2em;
   }
   ul li.nav-link a {
-    font-size: 0.85em;
+    font-size: 1em * (12/14);
     font-family: $source-sans-font-family;
     color: $secondary-nav-text-color;
     &:focus,

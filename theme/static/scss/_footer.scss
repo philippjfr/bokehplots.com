@@ -2,7 +2,7 @@
 
   background: $light-charcoal;
   font-family: $source-sans-font-family;
-  padding: 2em;
+  padding: 2em $left-align;
 
   .footer-links {
     @include outer-container;
@@ -25,7 +25,7 @@
     }
     > li {
       color: $navigation-text-base-color;
-      font-size: 0.85em;
+      font-size: 1em * (12/14);
       float: left;
       @include media ($large-screen) {
         float: right;
@@ -36,7 +36,7 @@
   li {
     list-style: none;
     text-align: left;
-    font-size: 0.85em;
+    font-size: 1em * (12/14);
   }
 
   li > a {

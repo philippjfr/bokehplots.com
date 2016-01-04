@@ -1,5 +1,23 @@
 @import "base/_variables";
 
+body {
+  margin: 0em;
+  padding: 0em;
+  color: $charcoal;
+  font-family: $noto-sans-font-family;
+  font-size: $base-font-size;
+}
+
+.wrapper {
+  @include clearfix;
+  @include outer-container;
+  max-width: none;
+  position: relative;
+  z-index: 9999;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 // Media queries
 $large-screen: 640px;
 
@@ -23,3 +41,6 @@ $secondary-nav-text-color: $medium-grey;
 $menu-background-color: $light-grey; 
 $menu-link-highlight-color: $mint;
 $menu-link-base-color: $charcoal;
+
+// Left margin
+$left-align: 60px;
