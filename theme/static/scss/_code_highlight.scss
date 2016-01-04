@@ -1,9 +1,7 @@
-
-
 .highlight {
   code, pre  {
-    color:#fdce93;
-    background-color: $charcoal;
+    color: $mint;
+    background-color: lighten($light-grey, 5%);
     padding: 0.5em 1em;
     font-size: 1em * (12/14);
     @include border-top-radius(5px);
@@ -11,211 +9,65 @@
     @include border-left-radius(5px);
     @include border-right-radius(5px);
   }
-  .hll {
-		background-color:#222
-	}
-  .c {
-		color:#7f9f7f
-	}
-  .err {
-		color:#e37170;background-color:#3d3535
-	}
-  .g {
-		color:#7f9f7f
-	}
-  .k {
-		color:#f0dfaf
-	}
-  .l {
-		color:#ccc
-	}
-  .n {
-		color:#dcdccc
-	}
-  .o {
-		color:#f0efd0
-	}
-  .x {
-		color:#ccc
-	}
-  .p {
-		color:#41706f
-	}
-  .cm {
-		color:#7f9f7f
-	}
-  .cp {
-		color:#7f9f7f
-	}
-  .c1 {
-		color:#7f9f7f
-	}
-  .cs {
-		color:#cd0000;font-weight:bold
-	}
-  .gd {
-		color:#cd0000
-	}
-  .ge {
-		color:#ccc;font-style:italic
-	}
-  .gr {
-		color:red
-	}
-  .gh {
-		color:#dcdccc;font-weight:bold
-	}
-  .gi {
-		color:#00cd00
-	}
-  .go {
-		color:gray
-	}
-  .gp {
-		color:#dcdccc;font-weight:bold
-	}
-  .gs {
-		color:#ccc;font-weight:bold
-	}
-  .gu {
-		color:purple;font-weight:bold
-	}
-  .gt {
-		color:#0040D0
-	}
-  .kc {
-		color:#dca3a3
-	}
-  .kd {
-		color:#ffff86
-	}
-  .kn {
-		color:#dfaf8f;font-weight:bold
-	}
-  .kp {
-		color:#cdcf99
-	}
-  .kr {
-		color:#cdcd00
-	}
-  .kt {
-		color:#00cd00
-	}
-  .ld {
-		color:#cc9393
-	}
-  .m {
-		color:#8cd0d3
-	}
-  .s {
-		color:#cc9393
-	}
-  .na {
-		color:#9ac39f
-	}
-  .nb {
-		color:#efef8f
-	}
-  .nc {
-		color:#efef8f
-	}
-  .no {
-		color:#ccc
-	}
-  .nd {
-		color:#ccc
-	}
-  .ni {
-		color:#c28182
-	}
-  .ne {
-		color:#c3bf9f;font-weight:bold
-	}
-  .nf {
-		color:#efef8f
-	}
-  .nl {
-		color:#ccc
-	}
-  .nn {
-		color:#8fbede
-	}
-  .nx {
-		color:#ccc
-	}
-  .py {
-		color:#ccc
-	}
-  .nt {
-		color:#9ac39f
-	}
-  .nv {
-		color:#dcdccc
-	}
-  .ow {
-		color:#f0efd0
-	}
-  .w {
-		color:#ccc
-	}
-  .mf {
-		color:#8cd0d3
-	}
-  .mh {
-		color:#8cd0d3
-	}
-  .mi {
-		color:#8cd0d3
-	}
-  .mo {
-		color:#8cd0d3
-	}
-  .sb {
-		color:#cc9393
-	}
-  .sc {
-		color:#cc9393
-	}
-  .sd {
-		color:#cc9393
-	}
-  .s2 {
-		color:#cc9393
-	}
-  .se {
-		color:#cc9393
-	}
-  .sh {
-		color:#cc9393
-	}
-  .si {
-		color:#cc9393
-	}
-  .sx {
-		color:#cc9393
-	}
-  .sr {
-		color:#cc9393
-	}
-  .s1 {
-		color:#cc9393
-	}
-  .ss {
-		color:#cc9393
-	}
-  .bp {
-		color:#efef8f
-	}
-  .vc {
-		color:#efef8f
-	}
-  .vg {
-		color:#dcdccc
-	}
-  .vi {
-		color:#ffffc7
-	}
-  .il {
-		color:#8cd0d3
-	}
+  .hll { background-color: #ffffcc }
+  .c { color: #408080; font-style: italic } /* Comment */
+  .err { border: 1px solid #FF0000 } /* Error */
+  .k { color: #008000; font-weight: bold } /* Keyword */
+  .o { color: #666666 } /* Operator */
+  .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+  .cp { color: #BC7A00 } /* Comment.Preproc */
+  .c1 { color: #408080; font-style: italic } /* Comment.Single */
+  .cs { color: #408080; font-style: italic } /* Comment.Special */
+  .gd { color: #A00000 } /* Generic.Deleted */
+  .ge { font-style: italic } /* Generic.Emph */
+  .gr { color: #FF0000 } /* Generic.Error */
+  .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+  .gi { color: #00A000 } /* Generic.Inserted */
+  .go { color: #808080 } /* Generic.Output */
+  .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+  .gs { font-weight: bold } /* Generic.Strong */
+  .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+  .gt { color: #0040D0 } /* Generic.Traceback */
+  .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+  .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+  .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+  .kp { color: #008000 } /* Keyword.Pseudo */
+  .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+  .kt { color: #B00040 } /* Keyword.Type */
+  .m { color: #666666 } /* Literal.Number */
+  .s { color: #BA2121 } /* Literal.String */
+  .na { color: #7D9029 } /* Name.Attribute */
+  .nb { color: #008000 } /* Name.Builtin */
+  .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+  .no { color: #880000 } /* Name.Constant */
+  .nd { color: #AA22FF } /* Name.Decorator */
+  .ni { color: #999999; font-weight: bold } /* Name.Entity */
+  .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+  .nf { color: #0000FF } /* Name.Function */
+  .nl { color: #A0A000 } /* Name.Label */
+  .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+  .nt { color: #008000; font-weight: bold } /* Name.Tag */
+  .nv { color: #19177C } /* Name.Variable */
+  .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+  .w { color: #bbbbbb } /* Text.Whitespace */
+  .mf { color: #666666 } /* Literal.Number.Float */
+  .mh { color: #666666 } /* Literal.Number.Hex */
+  .mi { color: #666666 } /* Literal.Number.Integer */
+  .mo { color: #666666 } /* Literal.Number.Oct */
+  .sb { color: #BA2121 } /* Literal.String.Backtick */
+  .sc { color: #BA2121 } /* Literal.String.Char */
+  .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+  .s2 { color: #BA2121 } /* Literal.String.Double */
+  .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+  .sh { color: #BA2121 } /* Literal.String.Heredoc */
+  .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+  .sx { color: #008000 } /* Literal.String.Other */
+  .sr { color: #BB6688 } /* Literal.String.Regex */
+  .s1 { color: #BA2121 } /* Literal.String.Single */
+  .ss { color: #19177C } /* Literal.String.Symbol */
+  .bp { color: #008000 } /* Name.Builtin.Pseudo */
+  .vc { color: #19177C } /* Name.Variable.Class */
+  .vg { color: #19177C } /* Name.Variable.Global */
+  .vi { color: #19177C } /* Name.Variable.Instance */
+  .il { color: #666666 } /* Literal.Number.Integer.Long */
 }
