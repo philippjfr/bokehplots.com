@@ -61,10 +61,11 @@ $navigation-search-border: 1px solid darken($navigation-background, 5);
   }
 
   .gsc-tabsArea {
-    border-color: $mint;
+    border-color: $light-charcoal;
   }
   .gsc-tabHeader.gsc-tabhActive {
-      border-color: $mint $mint #ffffff;
+      border-color: $light-charcoal $light-charcoal #ffffff;
+      height: 29px;
   }
 }
 
