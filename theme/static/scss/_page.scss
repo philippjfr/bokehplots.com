@@ -8,7 +8,7 @@
 .section {
   .content {
     @extend .wrapper;
-    padding: 2.5em $left-align;
+    padding: 0.5em $left-align;
     p {
       margin: 1.5em 0;
       line-height: 1.4em;  
@@ -42,7 +42,8 @@
     @include border-width(1px);
   }
   .caption {
-    margin-top: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 1.25em;
     font-family: $source-sans-font-family;
     font-weight: $normal-weight;
   } 
