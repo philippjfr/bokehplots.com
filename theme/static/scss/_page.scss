@@ -26,13 +26,14 @@
     color: $mint;
     font-family: $source-sans-font-family;
     font-weight: $source-sans-bold-font-weight;
-    font-size: 1.1em;
+    font-size: 1em * (18/14);
   }
   .small-title-with-sub {
     .sub {
       font-weight: $normal-weight;
       text-transform: none;
       float: right;
+      font-size: $base-font-size;
     } 
   }
   img {
