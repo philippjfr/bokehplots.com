@@ -8,9 +8,9 @@
 .section {
   .content {
     @extend .wrapper;
-    padding: 0.5em $left-align;
+    padding: 0.5em $left-align 2em $left-align;
     p {
-      margin: 1.5em 0;
+      margin: 1em 0 0 0;
       line-height: 1.4em;  
     }
    li {
@@ -27,6 +27,10 @@
     font-family: $source-sans-font-family;
     font-weight: $source-sans-bold-font-weight;
     font-size: 1em * (18/14);
+
+  }
+  h4 {
+    font-size: 1em * (16/14);
   }
   .small-title-with-sub {
     .sub {
@@ -43,7 +47,6 @@
   }
   .caption {
     margin-top: 0.25em;
-    margin-bottom: 1.25em;
     font-family: $source-sans-font-family;
     font-weight: $normal-weight;
   } 

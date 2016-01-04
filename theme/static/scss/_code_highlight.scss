@@ -3,8 +3,9 @@
 .highlight {
   code, pre  {
     color:#fdce93;
-    background-color:#3f3f3f;
-    padding: 1em;
+    background-color: $charcoal;
+    padding: 0.5em 1em;
+    font-size: 1em * (12/14);
     @include border-top-radius(5px);
     @include border-bottom-radius(5px);
     @include border-left-radius(5px);
