@@ -1,7 +1,7 @@
 // Fiddle with font sizs
 .section.docs {
   h2, h3 {
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 1.3em;
     font-weight: $normal-weight;
     color: $base-font-color;
@@ -74,4 +74,15 @@ dt a.headerlink {
 
 .simple ~ p {
     clear: both;
+}
+
+.mosaic.docs-home {
+  margin-top: 2em;
+  td, th {
+    padding: 0;
+    background-color: $charcoal;
+    a:hover {
+      opacity: 0.5; 
+    }
+  } 
 }
