@@ -17,10 +17,13 @@
       margin: 1em 0 0 0;
       line-height: 1.4em;  
     }
-   li {
+    p + ul {
+      margin-top: -0.5em;
+    }
+    li {
     list-style-type: disc;
     list-style-position: inherit;
-   }
+    }
   }
   h1 {
     @extend .title;
