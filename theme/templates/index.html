@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block extra_head %}
+  <meta http-equiv="refresh" content="1; url=http://bokeh.pydata.org/en/latest/">
+{% endblock extra_head %}
+
 {% block content %}
 
   <div class="section light">
@@ -12,8 +16,27 @@
       <div class="overlay"></div>
     </div>
     <div class="content title-content">
+      <h2 class="title">Bokeh</h2>
+      <div class="subtitle">Bokeh is a Python interactive visualization library that targets modern web browsers for presentation.</div>
+    </div>
+    <div class="content">
+      <h3>Redirecting...</h3>
+    </div>
+  </div>
+
+{# note: put back when content is ready
+  <div class="section light">
+    <div class="mosaic-backdrop">
+      <ul>
+        {% for i in range(1, 14) %}
+          <li><img src="/theme/images/Mosaic{{ i }}.png"></li>
+        {% endfor %}
+      </ul>
+      <div class="overlay"></div>
+    </div>
+    <div class="content title-content">
       <h2 class="title">Beautiful visualizations, no web tech</h2>
-      <div class="subtitle">You create interactive plots and apps in Python, we generate the HTML, Javascript and CSS</div>
+      <div class="subtitle">Bokeh is a Python interactive visualization library that targets modern web browsers for presentation. You create interactive plots and apps in Python, we generate the HTML, Javascript and CSS</div>
     </div>
   </div>
 
@@ -74,5 +97,6 @@
     </div>
   </div>
 
+#}
 
 {% endblock content %}

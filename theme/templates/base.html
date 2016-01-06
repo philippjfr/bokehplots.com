@@ -32,15 +32,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/images/favicon.ico">
 
+  {% block extra_head %}{% endblock extra_head %}
 </head>
 <body class="">
 
   <header class="navigation">
   <div class="wrapper">
-    <a href="{{ SITEURL }}/" class="logo">
+    <a href="//bokeh.pydata.org/en/latest/" class="logo">
       <img src="{{ SITEURL }}/theme/images/logo.png" alt="Bokeh Logo">
     </a>
-    <a href="{{ SITEURL }}/" class="navigation-menu logo-text">Bokeh</a>
+    <a href="//bokeh.pydata.org/en/latest/" class="navigation-menu logo-text">Bokeh</a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">Menu</a>
     <nav>
       <ul id="js-navigation-menu" class="navigation-menu show">
