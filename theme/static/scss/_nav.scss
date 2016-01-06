@@ -9,22 +9,23 @@
   .logo {
     float: left;
     max-height: $navigation-height;
-    padding-left: 0.2em 0;
-    padding-right: 2em;
+    padding-left: 0em 0;
+    padding-right: 3.4em;
     margin-left: -5px;
 
     img {
       max-height: $navigation-height;
-      padding: 0.2em 0;
+      padding: 0.6em 0;
     }
   }
   .logo-text {
     font-family: $logo-font-family;
+    font-size: 1.9em;
     color: $grey;
     display: inline-block;
     text-decoration: none;
     margin: 0 0 0 $base-spacing * -1;
-    padding-top: 0.5em;
+    padding-top: .55em;
   }
   // Mobile view
 
@@ -82,12 +83,12 @@
   // The nav items
 
   ul li.nav-link {
-    font-size: 0.85em;
+    font-size: 1.45em;  
     background: $navigation-background-color;
     display: block;
     line-height: $base-line-height;
     overflow: hidden;
-    padding-right: 0.8em;
+    padding-right: 0.5em;
     text-align: right;
     width: 100%;
     z-index: 9999;
@@ -135,7 +136,7 @@
   @include clearfix;
   background-color: $secondary-nav-background-color;
   min-height: 1.2em;
-  padding: 0.5em 2em;
+  padding: 1.6em 5.4em;
   text-transform: uppercase;
   ul li.nav-link {
     background: inherit;
@@ -144,7 +145,7 @@
     padding-right: 2em;
   }
   ul li.nav-link a {
-    font-size: 0.85em;
+    font-size: 1.35em;
     font-family: $source-sans-font-family;
     color: $secondary-nav-text-color;
     &:focus,

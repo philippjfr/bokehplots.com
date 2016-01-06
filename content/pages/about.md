@@ -8,7 +8,7 @@ large or streaming datasets. Bokeh can help anyone who would like to quickly
 and easily create interactive plots, dashboards, and data applications.
 
 For more information about the goals and direction of the project, please see
-the Technical Vision.
+the [Technical Vision](http://bokehplots.com/pages/technical-vision.html).
 
 
 To get started quickly, follow the

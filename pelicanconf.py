@@ -41,7 +41,8 @@ LINKS = (
     ('FAQs', '/pages/faqs.html'),
     ('Technical vision', '/pages/technical-vision.html'),
     ('Roadmap', '/pages/roadmap.html'),
-    ('Citation', '/pages/citation.html'),
+    ('Contribute', '/pages/contribute.html'),
+    ('Credit Us', '/pages/citation.html'),
 )
 # About Links
 ABOUT = (
@@ -51,7 +52,6 @@ ABOUT = (
 )
 # Social widget
 SOCIAL = (
-    ('Contribute', '/pages/contribute.html'),
     ('Mailing list', '//groups.google.com/a/continuum.io/forum/#!forum/bokeh'),
     ('Github', '//github.com/bokeh/bokeh'),
     ('Twitter', '//twitter.com/BokehPlots'),

@@ -1,17 +1,18 @@
 .content.title-content {
   padding-top: 0.5em;
-  padding-bottom: 1.6em;
-  margin-bottom: 0;
+  padding-bottom: 4em;
   .title {
-    font-size: 2em;
-    margin: 0.5em 0 0 0;
+    font-size: 3.8em;
+    margin: .3em 0 0 0;
     line-height: 1em;
-    padding: 0;
+    padding-left: 1em;
   }
   .subtitle {
     color: $light-charcoal;
     font-family: $noto-sans-font-family;
+    font-size: 1.7em;
     font-weight: $normal-weight;
+    padding-left: 2.5em;
   }
 }
 
@@ -24,7 +25,7 @@
   ul {
     width: 125%;
     overflow: hidden;
-    height: 75px;
+    height: 200px;
 
   li {
     float: left;
@@ -32,7 +33,7 @@
 
     img {
       border: none;
-      height: auto;
+      height: none;
       left: 0; 
       position: relative;
       top: 0;
@@ -54,19 +55,24 @@
 
 .getting-started {
   @include span-columns(4);
-  padding-right: 1em;
+  padding-left: 4.1em;
+  padding-right: 5em;
 }
 
 .examples {
   @include span-columns(6);
-  padding-right: 2em;
+  padding-left: 4.1em;
+  padding-right: 5.5em;
 }
 
 .value-prop {
-  margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-top: 6.5em;
+  margin-bottom: 2.5em;
+  
+  padding-left: 4em;
+  padding-right: 5.5em;
   .lead {
     color: $pink;
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 }

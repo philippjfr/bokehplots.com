@@ -2,7 +2,10 @@
 
   background: $light-charcoal;
   font-family: $source-sans-font-family;
-  padding: 2em;
+  padding-top: 3em;
+  padding-left: 5.4em;
+  padding-right: 2.5em;
+  padding-bottom: 3.5em;
 
   .footer-links {
     @include outer-container;
@@ -24,8 +27,8 @@
       @include span-columns(6);
     }
     > li {
-      color: $navigation-text-base-color;
-      font-size: 0.85em;
+      color: $grey;
+      font-size: 1.3em;
       float: left;
       @include media ($large-screen) {
         float: right;
@@ -36,11 +39,11 @@
   li {
     list-style: none;
     text-align: left;
-    font-size: 0.85em;
+    font-size: 1.3em;
   }
 
   li > a {
-    color: $navigation-text-base-color;
+    color: $grey;
     text-decoration: none;
 
     &:focus,
@@ -51,8 +54,8 @@
 
   li > .footer-title {
     color: $navigation-text-head-color;
-    font-size: 1em;
-    margin-bottom: 0.4em;
+    font-size: 1.1em;
+    margin-bottom: .8em;
     text-transform: uppercase;
     font-weight: $normal-weight;
   }  

@@ -24,7 +24,7 @@ body {
   padding: 0em;
   color: $charcoal;
   font-family: $noto-sans-font-family;
-  font-size: $base-font-size;
+  font-size: 5;
 }
 
 .wrapper {
@@ -33,6 +33,6 @@ body {
   max-width: none;
   position: relative;
   z-index: 9999;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1.25em;
+  padding-right: 2.5em;
 }
