@@ -21,4 +21,4 @@ Core Team:
 
 Full list of contributors on our [GitHub Contributors Page](//github.com/bokeh/bokeh/graphs/contributors).
 
-Bokeh is developed with funding from [DARPA's](//www.darpa.mil) [XDATA](//www.darpa.mil/program/xdata) program.
+Bokeh is developed with funding from [DARPA's](http://www.darpa.mil) [XDATA](http://www.darpa.mil/program/xdata) program.
