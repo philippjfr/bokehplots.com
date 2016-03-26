@@ -12,10 +12,10 @@ the Technical Vision.
 
 
 To get started quickly, follow the
-[Quickstart](//http://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html#userguide-quickstart).
+[Quickstart](http://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html#userguide-quickstart).
 
 To see examples of how you might use Bokeh with your own data, check out the
-[Gallery](//http://bokeh.pydata.org/en/latest/gallery.html).
+[Gallery](http://bokeh.pydata.org/en/latest/gallery.html).
 
 For questions and technical assistance, come join the [Bokeh mailing
 list](https://groups.google.com/a/continuum.io/forum/#!forum/bokeh).
