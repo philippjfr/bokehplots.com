@@ -28,7 +28,7 @@ information, you can visit the [Abstract Rendering GitHub page](//github.com/Jos
 
 Bokeh is one of several open-source components of the broader technical vision
 of [Continuum Analytics](//continuum.io). By providing powerful data description and vector
-computing on remote and distributed data via [Blaze](//blaze.pydata.org/) and [Numba](//numba.pydata.org), and providing
+computing on remote and distributed data via [Blaze](http://blaze.pydata.org/) and [Numba](http://numba.pydata.org), and providing
 interactive visualizations of them via Bokeh, we enable teams to
 collaboratively perform rich analysis, share them with others (potentially
 non-technical members of their team or business), and rapidly create analytical

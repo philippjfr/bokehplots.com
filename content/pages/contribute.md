@@ -5,8 +5,8 @@ base for Bokeh.
 
 If you are the author of an existing plotting library and would like your
 interfaces to generate output that can be rendered by the
-[BokehJS](//bokeh.pydata.org/en/latest/docs/dev_guide/bokehjs.html) runtime, take
-a look through the [Developer Guide](//bokeh.pydata.org/en/latest/docs/dev_guide.html) and we’d love to help
+[BokehJS](http://bokeh.pydata.org/en/latest/docs/dev_guide/bokehjs.html) runtime, take
+a look through the [Developer Guide](http://bokeh.pydata.org/en/latest/docs/dev_guide.html) and we’d love to help
 you out.
 
 If you have a data API or other web-based tool that you think would be great to
