@@ -25,7 +25,7 @@ For a lightweight, python-only library that exposes most of matplotlib to the br
 
 #### Does Bokeh implement R’s ggplot2?
 No, Bokeh does not implement R’s ggplot2 interface. Bokeh was influenced by Wilkinson’s Grammar of Graphics (e.g. the idea of tight, well-defined, composable abstractions that can be tied directly to data). However, Bokeh does not implement a “GoG” system. Please see [Technical Vision](http://bokehplots.com/pages/technical-vision.html) for more details.
-An experimental ggplot interface was prototyped at early stages, (circa Bokeh 0.1), but it was never fully developed and has since been removed. At present there are no plans to implement R’s ggplot2 interface directly within Bokeh. However, since Bokeh provides some level of Matplotlib compatibility, it is often possible to convert plots created using the third-party python library ggplot.py into Bokeh plots very easily. There are several examples in the gallery; you can see one here.
+An experimental ggplot interface was prototyped at early stages, (circa Bokeh 0.1), but it was never fully developed and has since been removed. At present there are no plans to implement R’s ggplot2 interface directly within Bokeh. However, since Bokeh provides some level of Matplotlib compatibility, it is often possible to convert plots created using the third-party python library ggplot.py into Bokeh plots very easily. There are several examples in the gallery; you can see one [here](http://bokeh.pydata.org/en/latest/docs/gallery/ggplot_line.html).
 
 ### Technical Questions
 #### Does Bokeh use D3.js?
@@ -41,15 +41,15 @@ Some of the Bokeh examples rely on sample data that is not included in the Bokeh
 ```
 
 ### Troubleshooting
-#### Are the tools not working in Chrome/Cromium?
+#### Are the tools not working in Chrome/Chromium?
 If you have a device with touchscreen capabilities, is possible that Chrome/Chromium is “flagged” to capture touch events which makes not possible to interact with the Bokeh tools with you mouse.
-To solve this issue you need to configure Chrome/Cromium going to the url bar and pasting the following:
+To solve this issue you need to configure Chrome/Chromium by going to the url bar and pasting the following:
 ```
 chrome://flags/#touch-events
 ```
 then you will see something like:
 ```
-Enable touch events Mac, Windows, Linux, Chrome OS Force touchscreen support to always be enabled or disabled,or to be enabled when a touchscreen is detected on startup (Automatic, the default). #touch-events
+Enable touch events Mac, Windows, Linux, Chrome OS   Force touchscreen support to always be enabled or disabled,or to be enabled when a touchscreen is detected on startup (Automatic, the default). #touch-events
 ```
-and a drop-down button that you have to set to ``Disabled``.
+and a drop-down button that you have to set to ``Disabled`` if you want to use Bokeh plot tools.
 

@@ -19,6 +19,6 @@ Core Team:
 - Bryan Van de Ven
 - Peter Wang
 
-Full list of contributors on our [GitHub Contributors Page](//github.com/bokeh/bokeh/graphs/contributors).
+The full list of contributors is on our [GitHub Contributors Page](//github.com/bokeh/bokeh/graphs/contributors).
 
 Bokeh is developed with funding from [DARPA's](http://www.darpa.mil) [XDATA](http://www.darpa.mil/program/xdata) program.
