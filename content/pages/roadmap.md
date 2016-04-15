@@ -1,5 +1,7 @@
 Title: Roadmap
 
+These are the big tasks that we are currently planning to work on or improve; please contact us if you are interested in contributing!
+
 ### Core Plotting
 
 - WebGL rendering

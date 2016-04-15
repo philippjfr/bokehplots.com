@@ -1,6 +1,6 @@
 Title: Contribute
 
-We are always looking for contributors, and want grow the developer/contributor
+We are always looking for contributors, and want to grow the developer/contributor
 base for Bokeh.
 
 If you are the author of an existing plotting library and would like your
