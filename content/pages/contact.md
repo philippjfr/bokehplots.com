@@ -2,6 +2,8 @@ Title: Contact
 
 For questions and technical assistance, come join the [Bokeh mailing list](//groups.google.com/a/continuum.io/forum/#!forum/bokeh).
 
+To download the source code, report bugs or discuss new features, find us on [GitHub](//github.com/bokeh/bokeh).
+
 You can also ask and read questions on StackOverflow with the [#bokeh tag](//stackoverflow.com/questions/tagged/bokeh).
 
 Follow us on Twitter [@BokehPlots](//twitter.com/BokehPlots). When tweeting about how awesome Bokeh is, be sure to use the #bokeh hashtag!
