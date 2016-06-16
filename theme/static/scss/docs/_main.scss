@@ -87,3 +87,7 @@ dt a.headerlink {
 .field-list .field-name {
   white-space: nowrap;
 }
+
+#tabs-panes pre {
+  clear: both; /* Fixes rendering on user_guide/interaction.html#tab-panes */
+}
