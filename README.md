@@ -19,10 +19,8 @@ Grunt is then watching for changes.
 
 # To deploy
 
-Requires s3cmd (http://s3tools.org/s3cmd-howto) to be installed and in a conda-env called s3cmd.
+Requires [s3cmd](http://s3tools.org/s3cmd-howto) and [optipng](http://optipng.sourceforge.net/) to be installed (both are `brew` installable on OSX) 
 
   `$ ./node_modules/grunt-cli/bin/grunt deploy` 
-  
-  `$ source activate s3cmd`
-  
+    
   `$ s3cmd put -r --force output/* s3://bokehplots.com`
