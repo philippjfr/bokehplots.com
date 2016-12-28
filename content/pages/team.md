@@ -1,24 +1,15 @@
 Title: Team
 
-Core Team:
+Active Core Contributors:
 
-- Damián Avila
 - Sarah Bird
 - Luke Canavan
-- Brendan Collins
-- Joseph Cottam
-- Tony Fast
-- Michael Grant
-- Almar Klein
 - Maggie Mari
 - Mateusz Paprocki
-- Havoc Pennington
-- Fabio Pliger
-- Sara Schnadt
-- Hunt Sparra
+- Philipp Rudiger
+- Claire Tang
 - Bryan Van de Ven
-- Peter Wang
 
 The full list of contributors is on our [GitHub Contributors Page](//github.com/bokeh/bokeh/graphs/contributors).
 
-Bokeh is developed with funding from [DARPA's](http://www.darpa.mil) [XDATA](http://www.darpa.mil/program/xdata) program.
+Bokeh was developed with funding from [DARPA's](http://www.darpa.mil) [XDATA](http://www.darpa.mil/program/xdata) program.
