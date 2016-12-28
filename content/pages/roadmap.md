@@ -1,38 +1,60 @@
 Title: Roadmap
 
-These are the big tasks that we are currently planning to work on or improve; please contact us if you are interested in contributing!
+Since the Bokeh project's inception, many of the major goals it set out have
+been accomplished, but there is still important work to continue. 
+In broad strokes, here are the big tasks that we are currently planning to 
+work on or improve as we move towards a 1.0 release. 
 
-### Core Plotting
+### Community
 
-- WebGL rendering
-- BokehJS interface
-- Backbuffering
-- CSS styling/theming mechanism
-- New layout capabilities (multiple axes, colorbar axes, plot (e.g., histogram axes), better grid plots, improved annotations and legends)
-- Python -> JS function reflection (animation, computed columns (e.g., jitter, colormapping, offsets))
-- Better map projections
-- Animation framework
-- Improve rendering loop performance in BokehJS
-- improved ticking & tick formatting - abbreviated ticking: 10:00 :05 :10 etc. - lat/long axes - explicit ticking
-- Annotations (arrows, axis hover tooltips, data tooltips)
-- Graphs/trees
-- GIS integrations
-- Map projections
-- Better save capability
-- Offscreen render using Node.js
-- Abstract Rendering server
-- Publishing support for bokeh-server
-- LaTeX support
+- Define and ratify Project Governance, transition to public meetings
+- Apply for [NUMFocus fiscal sponsorship](//www.numfocus.org/information-on-fiscal-sponsorship.html) 
+- Create a mechanism to make Bokeh extensions easily sharable, discoverable, and installable
+- Attract new developers and maintainers for components such as bokeh.charts and Bokeh.jl
 
-### Backends
+### Technical 
 
-- More efficient binary data transfers to BokehJS
-- Check compatibility with mobile browsers
-- Streaming data sources
-- Public cloud service
+- Core BokehJS improvements
 
-### Docs & Testing
+  - Migrate BokehJS codebase to [TypeScript](https://www.typescriptlang.org/)
+  - Increase WebGL capability and support to more areas (e.g patches)
+  - Refine and complete existing layout functionality 
+  - Refactor handling of categorical scales to support nested coordinate systems
+  - Support for scripted animations and visual transitions 
+  - Built-in capabilities (or easily usable extensions) for Networks/Graphs/Trees 
+  
+- Core Python library 
 
-- tests (unit tests, image comparisons, regression tests, selenium UI test)
-- better docs/interactive gallery
-- demo improvements (code simplification, option for static page generation, more demos)
+  - Add support for integrating with [Altair](//github.com/altair-viz/altair)
+  - Expand the initial basic theming functionality
+  - Static image (PNG, SVG, etc) generation using [Headless Chrome](//chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md)
+  - Add a "develop" mode to the Bokeh server
+  
+- GIS Support
+
+  - Improvements to existing integrations with Google Maps, OSM, etc
+  - Better support for map projections 
+  
+- Documentation
+
+  - Complete docstring coverage for the entire Python library
+  - Automated reference documentation for BokehJS
+  - Specific Bokeh server deployment guidance for more scenarios
+  - Increase the number of examples in the main gallery 
+  - Deploy more demos to [demo.bokehplots.com](//demo.bokehplots.com/)  
+  
+- Testing
+
+  - Improved unit test coverage to above 95 percent
+  - Add more Selenium tests to for interactive capabilities
+  - Require complete tests with all new PRs
+  
+### Infrastructure
+
+- Automated Windows CI testing on [Appveyor](//www.appveyor.com) 
+- Implement code complexity and quality metrics
+- Automatically generate reports to maintain API stability  
+
+
+Please [contact us](http://bokehplots.com/pages/contact.html) if you are interested 
+in contributing to Bokeh.
