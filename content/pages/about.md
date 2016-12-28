@@ -20,5 +20,8 @@ For questions and technical assistance, come join the [Bokeh mailing
 list](https://groups.google.com/a/continuum.io/forum/#!forum/bokeh) or the
 [Gitter chat channel](https://gitter.im/bokeh/bokeh).
 
+If you are interested in contributing to Bokeh, please see 
+the [Contribute](http://bokehplots.com/pages/contribute.html) section.
+
 Be sure to follow us on Twitter [@bokehplots](//twitter.com/BokehPlots), as well 
 as on [Youtube](https://www.youtube.com/channel/UCK0rSk29mmg4UT4bIOvPYhw)!
