@@ -53,6 +53,7 @@ ABOUT = (
 SOCIAL = (
     ('Contribute', '/pages/contribute.html'),
     ('Mailing list', '//groups.google.com/a/continuum.io/forum/#!forum/bokeh'),
+    ('Gitter chat', '//gitter.im/bokeh/bokeh'),
     ('Github', '//github.com/bokeh/bokeh'),
     ('Twitter', '//twitter.com/BokehPlots'),
     ('YouTube', '//www.youtube.com/channel/UCK0rSk29mmg4UT4bIOvPYhw')
