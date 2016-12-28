@@ -1,10 +1,11 @@
 Title: Contact
 
-For questions and technical assistance, come join the [Bokeh mailing list](//groups.google.com/a/continuum.io/forum/#!forum/bokeh).
-
-To download the source code, report bugs or discuss new features, find us on [GitHub](//github.com/bokeh/bokeh).
+For questions and technical assistance, come join the [Bokeh mailing list](//groups.google.com/a/continuum.io/forum/#!forum/bokeh) or the 
+[Gitter chat channel](https://gitter.im/bokeh/bokeh).
 
 You can also ask and read questions on StackOverflow with the [#bokeh tag](//stackoverflow.com/questions/tagged/bokeh).
+
+To download the source code, report bugs or discuss new features, find us on [GitHub](//github.com/bokeh/bokeh).
 
 Follow us on Twitter [@BokehPlots](//twitter.com/BokehPlots). When tweeting about how awesome Bokeh is, be sure to use the #bokeh hashtag!
 
