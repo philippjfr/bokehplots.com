@@ -34,7 +34,8 @@ applications at [demo.bokehplots.com](//demo.bokehplots.com/).
 Bokeh is one of several open-source components of the broader technical vision
 of [Continuum Analytics](//continuum.io). By providing powerful parallel and vector
 computing on remote and distributed data via [Dask](//dask.pydata.org/en/latest/) 
-and [Numba](//numba.pydata.org), and providing interactive visualizations of them v
-ia Bokeh, we enable teams to collaboratively perform rich analysis, share them with 
-others (potentially non-technical members of their team or business), and rapidly 
-create analytical dashboards and monitoring interfaces.
+and [Numba](//numba.pydata.org), affording interactive visualizations of them 
+via Bokeh, and making everything easily deployable with [conda](//conda.pydata.org/docs),
+we enable teams to collaboratively perform rich analysis, share them with  others 
+(potentially non-technical members of their team or business), and rapidly create 
+analytical dashboards and monitoring interfaces.
