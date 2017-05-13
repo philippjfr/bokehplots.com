@@ -31,16 +31,16 @@
     }
 
     &.warning {
-        border-color: $pink;
+        border-color: $tango;
         .admonition-title {
-          color: $pink;
+          color: $tango;
         }
     }
 
     &.alert {
-        border-color: $plum;
+        border-color: $cardinal;
         .admonition-title {
-          color: $plum;
+          color: $cardinal;
         }
     }
   }
