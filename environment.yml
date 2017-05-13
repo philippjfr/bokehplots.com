@@ -1,6 +1,6 @@
 name: bokehplots_com
 dependencies:
-  - python
+  - python=3
   - pelican
   - markdown
   - nodejs
