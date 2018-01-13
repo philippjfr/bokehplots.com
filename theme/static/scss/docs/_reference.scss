@@ -13,7 +13,7 @@
 }
 
 .class > dt {
-    color: $tango;
+    color: $cornflower;
 }
 
 dt:target, .highlighted {
@@ -28,20 +28,20 @@ dt:target, .highlighted {
 .attribute > dt > code:before {
     content: ' attr ';
     font-style: italic;
-    color: $cardinal;
+    color: $seagreen;
     font-size: 0.8em;
 }
 
 .method > dt > code:before {
     content: ' method ';
     font-style: italic;
-    color: $cardinal;
+    color: $seagreen;
     font-size: 0.8em;
 }
 
 .classmethod > dt > .property {
     font-style: italic;
-    color: $cardinal;
+    color: $seagreen;
     font-size: 0.9em;
 }
 

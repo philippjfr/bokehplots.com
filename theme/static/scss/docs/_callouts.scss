@@ -3,7 +3,7 @@
   .admonition-title {
       font-family: $source-sans-font-family;
       font-weight: $normal-weight;
-      color: $mint;
+      color: $saffron;
       font-size: 1.3em;
   }
 
@@ -31,14 +31,14 @@
     }
 
     &.warning {
-        border-color: $tango;
+        border-color: cornflower;
         .admonition-title {
-          color: $tango;
+          color: $cornflower;
         }
     }
 
     &.alert {
-        border-color: $cardinal;
+        border-color: $seagreen;
         .admonition-title {
           color: $cardinal;
         }
